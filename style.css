@@ -1,0 +1,41 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+
+li {
+  list-style-type: none;
+  padding: 1rem;
+  font-size: 1.5rem;
+}
+
+ul {
+  display: flex;
+}
+
+body {
+  background: url(img/beach-sunset.jpg) no-repeat;
+}
+
+#info {
+  float: right;
+  color: white;
+  font-size: 1.2rem;
+  margin-top: 4rem;
+  padding: 1rem 2rem;
+}
+
+
+#info i {
+  display: block;
+  margin-top: 1.5rem;
+  font-size: 4rem;
+  text-align: right;
+}
